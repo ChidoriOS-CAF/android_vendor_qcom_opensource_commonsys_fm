@@ -18,6 +18,7 @@ LOCAL_SHARED_LIBRARIES := \
          vendor.qti.hardware.fm@1.0 \
 
 LOCAL_CFLAGS := -Wno-unused-parameter
+LOCAL_CFLAGS += -Wno-gnu-designator -Wno-writable-strings
 
 LOCAL_C_INCLUDES += \
         $(LOCAL_PATH)/../helium \

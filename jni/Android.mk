@@ -23,6 +23,7 @@ LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 LOCAL_MODULE := libqcomfm_jni
 LOCAL_MODULE_TAGS := optional
+LOCAL_CFLAGS += -Wno-gnu-designator -Wno-writable-strings
 
 include $(BUILD_SHARED_LIBRARY)
 

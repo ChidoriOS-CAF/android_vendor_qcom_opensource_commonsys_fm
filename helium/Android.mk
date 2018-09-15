@@ -18,5 +18,6 @@ LOCAL_C_INCLUDES += $(FM_HCI_DIR)/fm_hci
 
 LOCAL_MODULE := fm_helium
 LOCAL_MODULE_TAGS := optional
+LOCAL_CFLAGS += -Wno-gnu-designator -Wno-writable-strings
 
 include $(BUILD_SHARED_LIBRARY)
